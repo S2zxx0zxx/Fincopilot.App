@@ -141,6 +141,20 @@ export function replaceSection(readme, generated) {
 
 export async function sync(root = process.cwd(), fetcher = globalThis.fetch) {
   const posts = await collect(fetcher)
+  // Fail closed if a transient feed issue appears to erase a previously populated index.
+  let previousCount = 0
+  try {
+    const previous = JSON.parse(await readFile(resolve(root, 'journal/posts.json'), 'utf8'))
+    if (previous.blog_id !== BLOG_ID || previous.source !== BLOG_HOME || !Array.isArray(previous.posts)) {
+      throw Error('Existing journal archive has an unexpected source identity')
+    }
+    previousCount = previous.posts.length
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error
+  }
+  if (previousCount > 0 && posts.length === 0) {
+    throw Error('Feed unexpectedly empty; retaining last-known-good article archive')
+  }
   const data = JSON.stringify({ source: BLOG_HOME, blog_id: BLOG_ID, posts }, null, 2) + '\n'
   const index = renderIndex(posts)
   const readmePath = resolve(root, 'README.md')
