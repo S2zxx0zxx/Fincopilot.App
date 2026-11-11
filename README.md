@@ -145,3 +145,18 @@ No. This is the official public information and educational resource for FinCo-P
 <sub>FinCo-Pilot public information repository · Educational content, not financial advice · Synthetic examples only · Content reviewed 11 November 2026</sub>
 
 </div>
+
+---
+
+<!-- THE_PAISA_JOURNAL:START -->
+## Read & Learn — The Paisa Journal
+
+Practical money and everyday-life stories in Hindi, Hinglish and English. An associated publication in the PARAT ecosystem; some articles may mention FinCoPilot with clear disclosure.
+
+[Visit The Paisa Journal](https://thepaisajournal.blogspot.com/) · [Browse every published article](JOURNAL_INDEX.md)
+
+### Latest from the journal
+
+- [बैंक में ₹24,000 हैं—पूरे पैसे खर्च करने से पहले यह हिसाब समझिए](https://thepaisajournal.blogspot.com/2026/11/24000.html) · 11 Nov 2026 · Hindi
+
+<!-- THE_PAISA_JOURNAL:END -->
