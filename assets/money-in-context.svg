@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="316" viewBox="0 0 900 316" role="img" aria-labelledby="t d">
+<title id="t">FinCo-Pilot: money with context</title>
+<desc id="d">Illustrative calculation: 25,000 rupees usable money minus bills of 8,500, emergency buffer of 4,000 and savings reserve of 3,000 equals 9,500 rupees unallocated.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141e31"/><stop offset="1" stop-color="#0a1222"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#facc55"/><stop offset="1" stop-color="#f6a82a"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="898" height="314" rx="24" fill="url(#bg)" stroke="#38465f" stroke-width="2"/>
+<circle cx="31" cy="33" r="8" fill="#ffcd4d"/>
+<text x="52" y="41" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">FinCo-Pilot</text>
+<text x="868" y="39" text-anchor="end" fill="#aab8ce" font-family="Arial, sans-serif" font-size="13" letter-spacing="1">MONEY, WITH CONTEXT</text>
+<path d="M28 58 H872" stroke="#34435b"/>
+<text x="28" y="105" fill="#f8fafc" font-family="Arial, sans-serif" font-size="30" font-weight="700">Your balance is not your spending plan.</text>
+<text x="28" y="131" fill="#aab8ce" font-family="Arial, sans-serif" font-size="16">A simple example of what is still unallocated after commitments.</text>
+<rect x="28" y="158" width="244" height="127" rx="15" fill="#243047" stroke="#eabf50" stroke-width="2"/>
+<text x="47" y="188" fill="#ffdb78" font-family="Arial, sans-serif" font-size="14" letter-spacing=".6">USABLE MONEY</text>
+<text x="47" y="242" fill="url(#gold)" font-family="Arial, sans-serif" font-size="45" font-weight="700">₹25,000</text>
+<text x="47" y="266" fill="#afbdd2" font-family="Arial, sans-serif" font-size="13">Illustrative INR amount</text>
+<rect x="287" y="158" width="183" height="127" rx="15" fill="#1c293e" stroke="#3d4d65"/>
+<text x="306" y="187" fill="#aab8ce" font-family="Arial, sans-serif" font-size="14">BILLS</text>
+<text x="306" y="239" fill="#f8fafc" font-family="Arial, sans-serif" font-size="27" font-weight="700">−₹8,500</text>
+<text x="306" y="262" fill="#afbdd2" font-family="Arial, sans-serif" font-size="13">Upcoming</text>
+<rect x="484" y="158" width="183" height="127" rx="15" fill="#1c293e" stroke="#3d4d65"/>
+<text x="503" y="187" fill="#aab8ce" font-family="Arial, sans-serif" font-size="14">BUFFER + GOALS</text>
+<text x="503" y="239" fill="#f8fafc" font-family="Arial, sans-serif" font-size="27" font-weight="700">−₹7,000</text>
+<text x="503" y="262" fill="#afbdd2" font-family="Arial, sans-serif" font-size="13">₹4,000 + ₹3,000</text>
+<rect x="681" y="158" width="190" height="127" rx="15" fill="#1c3840" stroke="#5fd8aa" stroke-width="2">
+<animate attributeName="stroke-opacity" values="1;0.4;1" dur="3.5s" repeatCount="indefinite"/>
+</rect>
+<text x="700" y="187" fill="#a6f3d1" font-family="Arial, sans-serif" font-size="14">UNALLOCATED</text>
+<text x="700" y="239" fill="#8df0c6" font-family="Arial, sans-serif" font-size="32" font-weight="700">₹9,500</text>
+<text x="700" y="262" fill="#bcd9d3" font-family="Arial, sans-serif" font-size="12">Not guaranteed safe</text>
+<rect x="697" y="275" rx="2" width="158" height="3" fill="#487269"/>
+<rect x="697" y="275" rx="2" width="158" height="3" fill="#8df0c6">
+<animate attributeName="width" values="0;158;158" keyTimes="0;0.4;1" dur="5s" repeatCount="indefinite"/>
+</rect>
+</svg>
