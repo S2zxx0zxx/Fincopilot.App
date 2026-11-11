@@ -1,0 +1,38 @@
+name: The Paisa Journal — published post index
+on:
+  schedule:
+    # UTC: 07:15 = 12:45 IST; 15:15 = 20:45 IST. Scheduled runs may be delayed.
+    - cron: '15 7,15 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: the-paisa-journal-main-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out indexed repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Prepare supported Node runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test feed validation and output safety
+        run: node --test scripts/sync-journal.test.mjs
+      - name: Fetch published Blogger posts
+        run: node scripts/sync-journal.mjs
+      - name: Commit only generated publication artifacts
+        run: |
+          git add -- README.md JOURNAL_INDEX.md journal/posts.json
+          if git diff --cached --quiet; then
+            echo "No published journal changes."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'docs: refresh published journal index'
+          git push origin HEAD:main
