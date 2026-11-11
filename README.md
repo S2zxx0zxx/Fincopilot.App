@@ -157,6 +157,7 @@ Practical money and everyday-life stories in Hindi, Hinglish and English. An ass
 
 ### Latest from the journal
 
+- [₹20,000 में घर का बजट: किराया, राशन और बिल कैसे संभालें?](https://thepaisajournal.blogspot.com/2026/11/20000.html) · 11 Nov 2026 · Hindi
 - [बैंक में ₹24,000 हैं—पूरे पैसे खर्च करने से पहले यह हिसाब समझिए](https://thepaisajournal.blogspot.com/2026/11/24000.html) · 11 Nov 2026 · Hindi
 
 <!-- THE_PAISA_JOURNAL:END -->

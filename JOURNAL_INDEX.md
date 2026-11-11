@@ -10,4 +10,5 @@ Published dates use India Standard Time (IST). Titles are maintained from the pu
 
 ### November 2026
 
+- **11 Nov 2026 · Hindi** — [₹20,000 में घर का बजट: किराया, राशन और बिल कैसे संभालें?](https://thepaisajournal.blogspot.com/2026/11/20000.html)
 - **11 Nov 2026 · Hindi** — [बैंक में ₹24,000 हैं—पूरे पैसे खर्च करने से पहले यह हिसाब समझिए](https://thepaisajournal.blogspot.com/2026/11/24000.html)
