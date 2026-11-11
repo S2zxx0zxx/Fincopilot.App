@@ -44,7 +44,8 @@ test('published-only directory renders safe text and retains archive', () => {
   const b = { ...a, id:'2', title:'Markdown [trick] <tag>', url:'https://' + BLOG_HOST + '/2026/11/example.html' }
   const index = renderIndex([a,b])
   assert.match(index, /11 Nov 2026/)
-  assert.match(index, /Markdown \\[trick\\] \\<tag\\>/)
+  assert.ok(index.includes('\\[trick\\]'))
+  assert.ok(index.includes('\\<tag\\>'))
   assert.match(index, /24000\.html/)
   assert.equal((renderReadme([a]).match(/THE_PAISA_JOURNAL:START/g) || []).length, 1)
 })
