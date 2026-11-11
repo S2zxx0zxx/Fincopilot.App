@@ -1,5 +1,11 @@
 name: The Paisa Journal — published post index
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync-journal.mjs'
+      - 'scripts/sync-journal.test.mjs'
+      - '.github/workflows/sync-journal.yml'
   schedule:
     # UTC: 07:15 = 12:45 IST; 15:15 = 20:45 IST. Scheduled runs may be delayed.
     - cron: '15 7,15 * * *'
