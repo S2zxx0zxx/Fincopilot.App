@@ -15,6 +15,16 @@
 <img src="assets/money-in-context.svg" width="820" alt="Illustrative budgeting example: INR 25,000 in usable money, minus INR 8,500 in bills, INR 4,000 emergency buffer and INR 3,000 savings reserve, leaves INR 9,500 not yet allocated." />
 
 <sub>Illustrative numbers only. No connected account or personal financial recommendation.</sub>
+<br>
+<br>
+**How everyday spending flows into a clearer money picture**
+<br>
+<picture>
+  <source media="(max-width: 620px)" srcset="assets/finco-expense-flow-mobile.svg">
+  <img src="assets/finco-expense-flow.svg" width="100%" alt="Animated SVG flowchart: illustrative Netflix, Prime Video, Zomato, Amazon, bills, loans, rent and utilities records route into a FinCo-Pilot dashboard for review and planning. Brand names identify example merchants only; no automatic integrations are implied.">
+</picture>
+<br>
+<sub>Built with vector SVG and animated routes, not a generated image. Merchant marks identify illustrative expenses, not integrations or endorsements.</sub>
 
 </div>
 
