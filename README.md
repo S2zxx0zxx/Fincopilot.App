@@ -8,7 +8,7 @@
 
 <br>
 
-[**Explore FinCo-Pilot**](https://fincopilot.app/welcome/) &nbsp;·&nbsp; [See features](https://fincopilot.app/welcome/features/) &nbsp;·&nbsp; [Try the free calculator](https://fincopilot.app/welcome/tools/safe-to-spend/)
+[**Explore FinCo-Pilot**](https://fincopilot.app/welcome/) &nbsp;·&nbsp; [Product Hunt listing](https://www.producthunt.com/products/finco-pilot) &nbsp;·&nbsp; [See features](https://fincopilot.app/welcome/features/) &nbsp;·&nbsp; [Try the free calculator](https://fincopilot.app/welcome/tools/safe-to-spend/)
 
 <br>
 
