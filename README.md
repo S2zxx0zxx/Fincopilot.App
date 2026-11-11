@@ -157,6 +157,7 @@ Practical money and everyday-life stories in Hindi, Hinglish and English. An ass
 
 ### Latest from the journal
 
+- [बैंक बैलेंस देखकर होने वाली 5 गलतियाँ—हर गलती का आसान उपाय](https://thepaisajournal.blogspot.com/2026/11/5.html) · 11 Nov 2026 · Hindi
 - [₹20,000 में घर का बजट: किराया, राशन और बिल कैसे संभालें?](https://thepaisajournal.blogspot.com/2026/11/20000.html) · 11 Nov 2026 · Hindi
 - [बैंक में ₹24,000 हैं—पूरे पैसे खर्च करने से पहले यह हिसाब समझिए](https://thepaisajournal.blogspot.com/2026/11/24000.html) · 11 Nov 2026 · Hindi
 
