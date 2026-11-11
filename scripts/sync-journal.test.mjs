@@ -1,6 +1,9 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { BLOG_HOST, BLOG_ID, normalizeEntry, parsePage, collect, renderIndex, renderReadme, replaceSection, publishedIst } from './sync-journal.mjs'
+import { mkdtemp, writeFile, readFile, rm } from 'node:fs/promises'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
+import { BLOG_HOST, BLOG_ID, normalizeEntry, parsePage, collect, renderIndex, renderReadme, replaceSection, publishedIst, sync } from './sync-journal.mjs'
 
 const entry = (id = '4437585684925087727', url = 'https://' + BLOG_HOST + '/2026/11/24000.html') => ({
   id: { $t: 'tag:blogger.com,1999:blog-' + BLOG_ID + '.post-' + id },
@@ -67,4 +70,25 @@ test('feed accepts real entry and rejects redirects outside blog host', async ()
   assert.equal(posts.length,1)
   const attack = async (url) => ({ok:true,url:'https://example.com/other',async json(){return feed([entry()])}})
   await assert.rejects(() => collect(attack), /redirect rejected/)
+})
+
+test('integration: writes real index once and fails closed on empty feed', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'paisa-journal-'))
+  try {
+    await writeFile(join(dir, 'README.md'), '# FinCoPilot original content\n')
+    const fetcher = async url => ({ ok:true, url, async json(){ return feed([entry()]) } })
+    await sync(dir, fetcher)
+    const first = await readFile(join(dir, 'journal/posts.json'), 'utf8')
+    assert.match(first, /4437585684925087727/)
+    const readme = await readFile(join(dir, 'README.md'), 'utf8')
+    await sync(dir, fetcher)
+    assert.equal(await readFile(join(dir, 'README.md'), 'utf8'), readme)
+    await assert.rejects(
+      () => sync(dir, async url => ({ ok:true, url, async json(){return feed([],0)} })),
+      /unexpectedly empty/
+    )
+    assert.equal(await readFile(join(dir, 'journal/posts.json'), 'utf8'), first)
+  } finally {
+    await rm(dir, {recursive:true,force:true})
+  }
 })
