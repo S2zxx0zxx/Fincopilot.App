@@ -10,6 +10,7 @@ Published dates use India Standard Time (IST). Titles are maintained from the pu
 
 ### November 2026
 
+- **12 Nov 2026 · English** — [How to Calculate Safe-to-Spend Money: An Honest ₹31,000 Example](https://thepaisajournal.blogspot.com/2026/11/calculate-safe-to-spend-money-india-guide.html)
 - **11 Nov 2026 · Hindi** — [बैंक बैलेंस देखकर होने वाली 5 गलतियाँ—हर गलती का आसान उपाय](https://thepaisajournal.blogspot.com/2026/11/5.html)
 - **11 Nov 2026 · Hindi** — [₹20,000 में घर का बजट: किराया, राशन और बिल कैसे संभालें?](https://thepaisajournal.blogspot.com/2026/11/20000.html)
 - **11 Nov 2026 · Hindi** — [बैंक में ₹24,000 हैं—पूरे पैसे खर्च करने से पहले यह हिसाब समझिए](https://thepaisajournal.blogspot.com/2026/11/24000.html)
