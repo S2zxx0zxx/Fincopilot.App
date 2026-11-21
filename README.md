@@ -157,10 +157,10 @@ Practical money and everyday-life stories in Hindi, Hinglish and English. An ass
 
 ### Latest from the journal
 
+- [Investing in Yourself on a Small Salary: A 90-Day Skill and Income Growth Plan](https://thepaisajournal.blogspot.com/2026/11/investing-in-yourself-on-small-salary.html) · 21 Nov 2026 · English
 - [Nifty 50, Midcap और Smallcap Index Fund क्या हैं? SIP शुरू करने से पहले Risk समझें](https://thepaisajournal.blogspot.com/2026/11/nifty50-midcap-smallcap-index-fund-risk-hindi.html) · 20 Nov 2026 · Hindi
 - [Can a ₹3,000 SIP Become ₹40 Crore? The Compounding Maths Behind Big Claims](https://thepaisajournal.blogspot.com/2026/11/3000-sip-40-crore-compounding-maths.html) · 20 Nov 2026 · English
 - [₹10,000 की सैलरी से निवेश कैसे शुरू करें? पहले सुरक्षा, फिर SIP और समझदारी](https://thepaisajournal.blogspot.com/2026/11/10000-salary-investment-start-hindi.html) · 20 Nov 2026 · Hindi
 - [Can Money Buy Back Your Time? A Better Way to Measure Financial Freedom](https://thepaisajournal.blogspot.com/2026/11/blog-post.html) · 19 Nov 2026 · English
-- [घर की जिम्मेदारी निभाते-निभाते अपनी जिंदगी कब भूल जाते हैं? पैसों की सीमाएँ तय करना सीखें](https://thepaisajournal.blogspot.com/2026/11/family-money-boundaries-hindi.html) · 19 Nov 2026 · Hindi
 
 <!-- THE_PAISA_JOURNAL:END -->
